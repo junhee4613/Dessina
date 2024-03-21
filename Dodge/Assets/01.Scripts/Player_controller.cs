@@ -6,14 +6,20 @@ public class Player_controller : MonoBehaviour
 {
     public Rigidbody player_rigidbody;
     public float speed = 8f;
-    // Start is called before the first frame update
-    void Start()
+    int test;
+   
+    private void Awake()
     {
         
     }
+    // Start is called before the first frame update
+    void Start()
+    {
+        Debug.Log("æ»≥Á«œººø‰");
+    }
 
     // Update is called once per frame
-    void Update()
+    /*void Update()
     {
         if (Input.GetKey(KeyCode.UpArrow) == true)
         {
@@ -34,7 +40,7 @@ public class Player_controller : MonoBehaviour
             player_rigidbody.AddForce(speed, 0f, 0f);
 
         }
-    }
+    }*/
     public void Die()
     {
         gameObject.SetActive(false);
