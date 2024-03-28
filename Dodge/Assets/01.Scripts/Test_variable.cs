@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Test_1 : MonoBehaviour
+public class Test_variable : MonoBehaviour
 {
     //변수를 선언하는 방법은 타입과 변수명을 선언하고 세미클론을 붙여준다.
 
