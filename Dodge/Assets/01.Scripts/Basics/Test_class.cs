@@ -19,8 +19,7 @@ public class Test_class : MonoBehaviour
         //Debug.Log("이름 : " + junhee_1.name);
         Debug.Log("나이 : " + junhee_1.age);
         junhee_1.age = 15;                  //junhee_1의 age(나이)를 15로 바꿔줌
-        Debug.Log("이름 : " + junhee.age + "나이 : " + junhee_1.age);//클래스가 참조타입이라 junhee_1의 age(나이)를 바꿔도 junhee변수 안에
-                                                                 //있는 age라는 값이 바꼈다
+        Debug.Log("이름 : " + junhee.age + "나이 : " + junhee_1.age);//클래스가 참조타입이라 junhee_1의 age(나이)를 바꿔도 junhee변수 안에 있는 age라는 값이 바꼈다
         Debug.Log("나이 : " + junhee_1.age);
     }
 

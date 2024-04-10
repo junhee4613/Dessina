@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Test_2 : MonoBehaviour
+public class Test_variable : MonoBehaviour
 {
     //변수를 선언하는 방법은 타입과 변수명을 선언하고 세미클론을 붙여준다.
 
@@ -37,7 +37,7 @@ public class Test_2 : MonoBehaviour
 
 
         //test_array_int[0] = 1;            //배열 0번째 인덱스에 1의 값을 할당
-        //test_int = test_array_int[0];       //배열 0번째 인덱스에 있는 1의 값을 test_int에 할당
+        //test_int = test_array_int[0];       //배열 0번째 인덱스에 있는 값인 1을 test_int에 할당
     }
     private void Update()
     {
