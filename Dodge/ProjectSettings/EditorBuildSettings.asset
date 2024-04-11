@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/02.Scenes/Dodge_scene.unity
+    guid: 109fce393fda6d44ea6291b13284844b
   m_configObjects: {}
