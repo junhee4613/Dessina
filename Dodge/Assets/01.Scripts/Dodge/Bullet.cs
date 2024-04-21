@@ -26,7 +26,7 @@ public class Bullet : MonoBehaviour
         if(other.tag == "Player")
         {
             //상대방 게임 오브젝트에서 Player_controller 컴포넌트 가져오기
-            Player_controller player_Controller = other.GetComponent<Player_controller>();
+            Dessina_player player_Controller = other.GetComponent<Dessina_player>();
 
             //상대방으로부터 Player_controller 컴포넌트를 가져오는 데 성공했다면
             if(player_Controller != null)
