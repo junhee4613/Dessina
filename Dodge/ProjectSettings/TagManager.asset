@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Check_point
+  - Dead
   layers:
   - Default
   - TransparentFX
@@ -41,4 +42,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3090631575
+    locked: 0
+  - name: Player
+    uniqueID: 2389854933
+    locked: 0
+  - name: Middleground
+    uniqueID: 2994619883
+    locked: 0
+  - name: Foreground
+    uniqueID: 1651965375
     locked: 0
