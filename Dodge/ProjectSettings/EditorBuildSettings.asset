@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/02.Scenes/Dessina_dodge.unity
-    guid: 7a5f5d14f53d0524d9d1ff6264037469
-  - enabled: 1
-    path: Assets/02.Scenes/Dodge_scene.unity
-    guid: 109fce393fda6d44ea6291b13284844b
+    path: Assets/02.Scenes/Uni-run.unity
+    guid: c99945c35c3018c4a87f9b478f2b0ace
   m_configObjects: {}
